@@ -1,0 +1,31 @@
+li {
+    display: inline-block;
+    
+}
+
+ul {
+
+    flex-wrap: nowrap;
+}
+
+a{
+    color: black;
+    
+}
+
+header{
+    text-align: center;
+    padding-left:  450px;
+    background-color: rgb(116, 116, 207);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    width: auto;
+    display: flex;
+}
+
+.title-r {
+    text-align: center;
+}
