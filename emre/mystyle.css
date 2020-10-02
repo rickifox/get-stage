@@ -10,3 +10,10 @@
     display: block;
 }
 
+label{
+    display: block;
+}
+
+.buttons{
+    margin-top: 20px;
+}
