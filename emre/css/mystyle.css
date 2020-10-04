@@ -21,3 +21,16 @@ label{
 .forms{
     text-align: center;
 }
+
+.header-links a{
+    color: orangered;
+
+}
+.header-links a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.text-right{
+    float: right ;
+}
