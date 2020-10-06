@@ -12,6 +12,7 @@
 
 label{
     display: block;
+
 }
 
 .buttons{
@@ -20,6 +21,12 @@ label{
 
 .forms{
     text-align: center;
+    margin: 5px;
+}
+
+.forms label{
+    font-weight: bold;
+    font-size: smaller;
 }
 
 .header-links a{
@@ -33,4 +40,33 @@ label{
 
 .text-right{
     float: right ;
+}
+
+.dropdownmenu{
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdownitem{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdownmenu:hover .dropdownitem{
+    display: block;
+}
+.dropdownitem a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    background-color: orangered;
+    /*border-radius: 25px; */
+    border-top-right-radius: 25px;
+    margin: 2px;
+    margin-left: 0;
+    padding: 3px;
+    font-size: 12px;
 }

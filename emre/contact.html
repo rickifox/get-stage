@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="css/mystyle.css">
     <title>Contactez Nous</title>
 </head>
-<body>
-
-    <div class="container">
-        <header class="mt-3">
-            <div class="row">  
-                <div class="col-4">logo</div>
-                <div class="col-4"></div>
-                <div class="col-4"></div>
-            </div>
-        </header>
-        <hr>
-        <div class="nav-scroller py-1 mb-1">
-            <nav class="nav d-flex justify-content-between">
-                <a href="contact.html"> Contactez Nous</a>
-                <a href="entreprises.html"> Entreprises</a>
+<body>    
+        <div class="header-class">
+            <nav class="header-links">
+                <a href="index.html"> <i class="fa fa-home"></i></a>
+                <div class="dropdownmenu">
+                    <a  href="entreprises.html"> Entreprises </a>
+                        <div class="dropdownitem">
+                            <a href="entreprises.html"> Entreprises référenciées</a>
+                            <a href="entreprises.html"> Entreprises à référenciées</a>
+                            <a href="entreprises.html"> Entreprises</a>
+                        </div>
+                    
+                </div>
                 <a href="conseils.html"> Conseils</a>
-                <a href="index.html"> Home</a>
+                <a href="contact.html" class="text-right"> Contactez Nous</a>
+                
             </nav>
         </div>
-    <h1 class="forms">Contactez Nous</h1>
+        <h1 class="forms">Contactez Nous</h1>
     <form action="" method="POST">
         <div class="forms">
             <label for="prenom">Prenom</label>
@@ -36,13 +34,7 @@
         <div class="forms">
             <label for="nom"> Nom</label>
             <input id="nom" type="text" required/>
-        </div> 
-
-        <div class="forms">
-            <label for="tel">Téléphone</label>
-            <input id="tel" type="tel">
-        </div class="forms">
-        
+        </div>        
         <div class="forms">
             <label for="email">@</label>
             <input id="email" type="email" required/>
@@ -54,9 +46,12 @@
         </div> 
 
         <div class="forms">
-            <label for="wilder">Qui êtes Vous ?</label>
-            <input type="radio" name="particulier">Oui
-            <input type="radio" name="Professionnel">Non
+            <label for="qui">Qui êtes Vous ?</label>
+            <select name="qui" id="qui">
+                <option value="stagiaire">Stagiaire</option>
+                <option value="entreprise">Entreprise référenciée</option>
+                <option value="entreprise">Entreprise à référenciée</option>
+            </select>
         </div>
         <div class="buttons forms">
             <button type="reset">Vider</button>
