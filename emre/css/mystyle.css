@@ -1,7 +1,6 @@
 .nav a{
     color: rgb(204, 94, 43);
     font-size: 12px;
-
 }
 
 p{
@@ -34,14 +33,13 @@ label{
 }
 
 .header-links a{
-    color: orangered;
+    color: white;
     text-decoration: none;
-    border-right: 1px solid orange;
+    border-right: 1px solid white;
     margin: 2px;
-
 }
 .header-links a:hover{
-    background-color: orangered;
+    background-color: #D43535;
     color: white;
 }
 
@@ -51,8 +49,7 @@ label{
 
 .dropdownmenu{
     position: relative;
-    display: inline-block;
-    
+    display: inline-block;    
 }
 .dropdownitem{
     display: none;
@@ -69,7 +66,7 @@ label{
     font-weight: bold;
     text-decoration: none;
     display: block;
-    background-color: orangered;
+    background-color: #D43535;
     /*border-radius: 25px; */
     border-top-right-radius: 25px;
     margin: 2px;
@@ -83,5 +80,11 @@ label{
     padding-top: 5px;
     border-radius: 10px;
     border-style: ridge;
-    border-color: ;
+    border-color: rgb(141, 156, 184);
+}
+
+.header-class{
+    background-color: #D43535;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
