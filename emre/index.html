@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css/all.min.css">
     <script src="js/all.min.js"> </script>
+    <script src="js/custom.js"> </script>
+
 
 
 
@@ -15,8 +17,9 @@
     
         <hr>
         <div class="header-class">
-            <nav class="header-links">
-                <a href="index.html"> <i class="fa fa-home"></i></a>
+            <div class="header-links" id="header-links-btn">
+                <a href="javascript:" class="burgermenu" onclick="clickonme()"><i class="fa fa-bars"></i></a>
+                <a href="index.html" class="home-icon"> <img src="img/logo_getstage.png" alt=""></a>
                 <div class="dropdownmenu">
                     <a  href="conseils.html"> <p> Conseils</p> </a>
                         <div class="dropdownitem">
@@ -28,7 +31,7 @@
                 <a  href="entreprises.html"> Entreprises </a>
                 <a href="contact.html" class="text-right"> Contactez Nous</a>
                 
-            </nav>
+            </div>
         </div>
         <hr>
         <!--<div class="dropdownmenu">
