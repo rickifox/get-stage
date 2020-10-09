@@ -7,6 +7,9 @@
 	<meta name="author" content="Emre Aydin, Yusuf Celik, Ricardo Da Silva Pereira">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Entreprises - $_GET("stage")</title>
+
+	<link rel="stylesheet" type="text/css" href="./styleentreprises.css">
+
 </head>
 <body>
 	<header>
@@ -24,39 +27,44 @@
 			<p class='pintro'>Vous vous lancez dans le monde du dev et ne connaissez pas encore le tissus local dans ce millieu ? Pas de panique. 
 Quel est le comble pour une entreprise qui fait travailler des dévelloppeurs ? Ne pas avoir de site vitrine!
 Alors ouvre ton navigateur préféré et lance donc une petite recherche! Tu devrais assez vite trouver des prétendants.
-Ou sinon tu peux aussi profiter de la petite liste d'entreprises que nous avons listé pour toi ci-dessous : </p>
+Ou sinon tu peux aussi profiter de la petite liste d'entreprises que nous avons préparée pour toi ci-dessous : </p>
 		</section>
-
 		<section>
 
 			<h2>Liste d'entreprises:</h2>
 			<p>(le logo de la Wild vous indique si des wilders y travaillent)</p>
 
 			<article>
-				<h2>1.</h2>
-				<div>
+				<h3>
 					<a href="https://www.civitime.com/" target="_blank">
 						<p>CiviTime</p>
-						<img src="./doss_img/logo_CiviTime.png" alt="logo de CiviTime">
 					</a>
+				</h3>
+				<div class=main-info>
+					<div class="logo">
+						<a href="https://www.civitime.com/" target="_blank">
+							<img src="./doss_img/logo_CiviTime.png" alt="logo de CiviTime">
+						</a>
+					</div>
+					<div class="contact">
+						<p><b>n°:</b> 02 47 31 10 78</p>
+						<p><b>@:</b> technique@civitime.com</p>
+						<p><b>Add:</b> 49 Boulevard Preuilly, 37000 Tours</p>
+					</div>
+					<div class="wild">
+						<img src="./doss_img/logo_Wild.resized.png" alt="Wild">
+					</div>
+					<div class="technos">
+						<img src="./doss_img/logo_JS.resized.png" alt="JavaScript, React/Node.js">
+					</div>
 				</div>
-				<div>
-					<p>n°: 02 47 31 10 78</p>
-					<p>@ :technique@civitime.com</p>
-					<p>Add: 49 Boulevard Preuilly, 37000 Tours</p>
-					<p>Présentation:"Le serious game CiviTime vous permet d’améliorer l’engagement de vos collaborateurs en développant leur sentiment d’appartenance à votre entreprise."</p>
-				</div>
-				<div>
-					<img src="./doss_img/logo_Wild.png" alt="Wild">
-				</div>
-				<div>
-					<p>Technos:</p>
-					<img src="./doss_img/logo_JS.png" alt="JavaScript, React/Node.js">
+				<div class="presentation">
+					<p><b>Présentation:</b> "Le serious game CiviTime vous permet d’améliorer l’engagement de vos collaborateurs en développant leur sentiment d’appartenance à votre entreprise."</p>
 				</div>
 			</article>
 
 			<article>
-				<h2>2.</h2>
+				<h3>2.</h3>
 				<div>
 					<p></p>
 					<img src="" alt="logo de">
@@ -77,7 +85,7 @@ Ou sinon tu peux aussi profiter de la petite liste d'entreprises que nous avons 
 			</article>
 
 			<article>
-				<h2>3.</h2>
+				<h3>3.</h3>
 				<div>
 					<p></p>
 					<img src="" alt="logo de">
@@ -98,7 +106,7 @@ Ou sinon tu peux aussi profiter de la petite liste d'entreprises que nous avons 
 			</article>
 
 			<article>
-				<h2>4.</h2>
+				<h3>4.</h3>
 				<div>
 					<p></p>
 					<img src="" alt="logo de">
@@ -119,7 +127,7 @@ Ou sinon tu peux aussi profiter de la petite liste d'entreprises que nous avons 
 			</article>
 
 			<article>
-				<h2>5.</h2>
+				<h3>5.</h3>
 				<div>
 					<p></p>
 					<img src="" alt="logo de">
