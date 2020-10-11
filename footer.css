@@ -7,23 +7,15 @@ body {
 main {
     position: relative;
     flex: 1;
-    align-items: center;
-    display: flex;
-    align-content: flex-start;
-    justify-content: space-evenly;
-    align-items: stretch;
-    background-color: #FDFCFD;
 }
 
-article {
-    width: 75%;
-    height: 350px;
-    padding: 20px;
-    margin: 25px;
-    padding: 25px;
+.legacy-text {
+    height: 150%;
     background-color: #F5F0F5;
     border: 1px solid orange;
     border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
 }
 
 footer {
