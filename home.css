@@ -5,11 +5,6 @@ body {
     margin: 0;
 }
 
-.header {
-    grid: 10%;
-    display: inline;
-}
-
 .home-main {
     grid: 80%;
     min-height: calc(100vh - 70px);
@@ -33,6 +28,10 @@ body {
     padding: 2px;
 }
 
+.ftext {
+    text-align: center;
+}
+
 h1 {
     font-size: 200%;
     text-align: center;
@@ -41,12 +40,6 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.ftext {
-    text-align: center;
-    top: 100px;
-    color: black;
 }
 
 .container {
@@ -63,6 +56,7 @@ h1 {
 .box {
     width: 30%;
     margin: 1%;
+    height: 200px;
     flex: 1 1 auto;
     text-align: center;
     font-size: 120%;
@@ -76,7 +70,7 @@ h2 {
     font-size: 90%;
 }
 
-button:hover {
+.button:hover {
     background-color: tomato;
 }
 
