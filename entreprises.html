@@ -8,26 +8,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Entreprises - $_GET("stage")</title>
 
-	<link rel="stylesheet" type="text/css" href="./styleentreprises.css">
-
+	<link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/all.min.js"> </script>
+    <script src="js/custom.js"> </script>
+    <link rel="stylesheet" type="text/css" href="./styleentreprises.css">
 </head>
-<body>
-	<header>
-        <ul>
-            <li><a href="index.html"> Home</a></li>
-            <li><a href="conseils.html"> Conseils</a></li>
-            <li><a href="entreprises.html"> Entreprises</a></li>
-            <li><a href="contact.html"> Contactez Nous</a></li>
-        </ul>
-	</header>
+<body>    
+    <hr>
+        <div class="header-class">
+            <div class="header-links" id="header-links-btn">
+                <a href="javascript:" class="burgermenu" onclick="clickonme()"><i class="fa fa-bars"></i></a>
+                <a href="index.html" class="home-icon"> <img class="icon" src="doss_img/logo_getstage.png" alt=""></a>
+                <div class="dropdownmenu">
+                    <a  href="conseils.html"> <p> Conseils</p> </a>
+                        <div class="dropdownitem">
+                            <a href="conseils.html"> Lettre de motivation</a>
+                            <a href="entretien.html"> Entretien</a>
+                        </div>
+                   
+                </div>
+                <a  href="entreprises.html"> Entreprises </a>
+                <a href="contact.html" class="text-right"> Contactez Nous</a>
+                
+            </div>
+        </div>
+        <hr>
 	<main>
 
 		<section class='sintro'>
 			<h1>Entreprises</h1>
 			<p class='pintro'>Vous vous lancez dans le monde du dev et ne connaissez pas encore le tissus local dans ce millieu ? Pas de panique. 
-Quel est le comble pour une entreprise qui fait travailler des dévelloppeurs ? Ne pas avoir de site vitrine!
-Alors ouvre ton navigateur préféré et lance donc une petite recherche! Tu devrais assez vite trouver des prétendants.
-Ou sinon tu peux aussi profiter de la petite liste d'entreprises que nous avons préparée pour toi ci-dessous : </p>
+			Quel est le comble pour une entreprise qui fait travailler des dévelloppeurs ? Ne pas avoir de site vitrine!
+			Alors ouvre ton navigateur préféré et lance donc une petite recherche! Tu devrais assez vite trouver des prétendants.<br/>
+			Ou sinon tu peux aussi profiter de la petite liste d'entreprises que nous avons préparée pour toi ci-dessous : <br/><br/>
+			<span class='date'>- 09/10/2020 -</span></p></p>
 		</section>
 		<section>
 
@@ -37,10 +52,10 @@ Ou sinon tu peux aussi profiter de la petite liste d'entreprises que nous avons 
 			<article>
 				<h3>
 					<a href="https://www.civitime.com/" target="_blank">
-						<p>CiviTime</p>
+						CiviTime
 					</a>
 				</h3>
-				<div class=main-info>
+				<div class="main-info">
 					<div class="logo">
 						<a href="https://www.civitime.com/" target="_blank">
 							<img src="./doss_img/logo_CiviTime.png" alt="logo de CiviTime">
@@ -64,94 +79,142 @@ Ou sinon tu peux aussi profiter de la petite liste d'entreprises que nous avons 
 			</article>
 
 			<article>
-				<h3>2.</h3>
-				<div>
-					<p></p>
-					<img src="" alt="logo de">
+				<h3>
+					<a href="" target="_blank">
+						2.
+					</a>
+				</h3>
+				<div class="main-info">
+					<div class=logo>
+						<a href="" target="_blank">
+							<img src="" alt="logo de">
+						</a>
+					</div>
+					<div class="contact">
+						<p><b>n°:</b></p>
+						<p><b>@:</b></p>
+						<p><b>Add:</b></p>
+					</div>
+					<div class="wild">
+						<img src="" alt="Wild">
+					</div>
+					<div class="technos">
+						<img src="" alt="php">
+					</div>
 				</div>
-				<div>
-					<p></p>
-					<p></p>
-					<p></p>
-					<p></p>
+				<div class="presentation">
+					<p><b>Présentation:</b></p>
 				</div>
-				<div>
-					<img src="" alt="Wild">
-				</div>
-				<div>
-					<p>Technos:</p>
-					<img src="" alt="php">
-				</div>
+
 			</article>
 
 			<article>
-				<h3>3.</h3>
-				<div>
-					<p></p>
-					<img src="" alt="logo de">
+				<h3>
+					<a href="" target="_blank">
+						2.
+					</a>
+				</h3>
+				<div class="main-info">
+					<div class=logo>
+						<a href="" target="_blank">
+							<img src="" alt="logo de">
+						</a>
+					</div>
+					<div class="contact">
+						<p><b>n°:</b></p>
+						<p><b>@:</b></p>
+						<p><b>Add:</b></p>
+					</div>
+					<div class="wild">
+						<img src="" alt="Wild">
+					</div>
+					<div class="technos">
+						<img src="" alt="php">
+					</div>
 				</div>
-				<div>
-					<p></p>
-					<p></p>
-					<p></p>
-					<p></p>
+				<div class="presentation">
+					<p><b>Présentation:</b></p>
 				</div>
-				<div>
-					<img src="" alt="Wild">
-				</div>
-				<div>
-					<p>Technos:</p>
-					<img src="" alt="php">
-				</div>
+
 			</article>
 
 			<article>
-				<h3>4.</h3>
-				<div>
-					<p></p>
-					<img src="" alt="logo de">
+				<h3>
+					<a href="" target="_blank">
+						2.
+					</a>
+				</h3>
+				<div class="main-info">
+					<div class=logo>
+						<a href="" target="_blank">
+							<img src="" alt="logo de">
+						</a>
+					</div>
+					<div class="contact">
+						<p><b>n°:</b></p>
+						<p><b>@:</b></p>
+						<p><b>Add:</b></p>
+					</div>
+					<div class="wild">
+						<img src="" alt="Wild">
+					</div>
+					<div class="technos">
+						<img src="" alt="php">
+					</div>
 				</div>
-				<div>
-					<p></p>
-					<p></p>
-					<p></p>
-					<p></p>
+				<div class="presentation">
+					<p><b>Présentation:</b></p>
 				</div>
-				<div>
-					<img src="" alt="Wild">
-				</div>
-				<div>
-					<p>Technos:</p>
-					<img src="" alt="php">
-				</div>
+
 			</article>
 
 			<article>
-				<h3>5.</h3>
-				<div>
-					<p></p>
-					<img src="" alt="logo de">
+				<h3>
+					<a href="" target="_blank">
+						2.
+					</a>
+				</h3>
+				<div class="main-info">
+					<div class=logo>
+						<a href="" target="_blank">
+							<img src="" alt="logo de">
+						</a>
+					</div>
+					<div class="contact">
+						<p><b>n°:</b></p>
+						<p><b>@:</b></p>
+						<p><b>Add:</b></p>
+					</div>
+					<div class="wild">
+						<img src="" alt="Wild">
+					</div>
+					<div class="technos">
+						<img src="" alt="php">
+					</div>
 				</div>
-				<div>
-					<p></p>
-					<p></p>
-					<p></p>
-					<p></p>
+				<div class="presentation">
+					<p><b>Présentation:</b></p>
 				</div>
-				<div>
-					<img src="" alt="Wild">
-				</div>
-				<div>
-					<p>Technos:</p>
-					<img src="" alt="php">
-				</div>
+
 			</article>
 			
 		</section>
 
 	</main>
-	<footer>
-		
-	</footer>
+	<section>
+        <footer>
+            <div class="contain">
+                <div class="sitemap">
+                    <a href="#">Plan de site</a>
+                </div>
+                <div class="copyright">
+                    <p class="copyright"> &nbsp;$_GET["stage"]© 2020 All rights reserve</p>
+                </div>
+                <div class="legacy">
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>
