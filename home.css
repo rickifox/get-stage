@@ -56,7 +56,7 @@ h1 {
 .box {
     width: 30%;
     margin: 1%;
-    height: 200px;
+    height: auto;
     flex: 1 1 auto;
     text-align: center;
     font-size: 120%;
@@ -64,18 +64,11 @@ h1 {
     border: 1px solid orange;
     border-radius: 10px;
     padding: 2px;
+    overflow: hidden;
 }
 
 h2 {
     font-size: 90%;
-}
-.buton {
-    height: 5%;
-    width: 10%;
-}
-.buton {
-    height: 5%;
-    width: 10%;
 }
 
 .button:hover {
@@ -128,11 +121,16 @@ footer {
     .box {
         width: 80%;
         margin: 2%;
-        height: 300px;
+        height: auto;
     }
-    .button {
-        height: 5%;
-        width: 10;
+    .copyright {
+        font-size: 70%;
+    }
+    .sitemap a {
+        font-size: 70%;
+    }
+    .legacy a {
+        font-size: 70%;
     }
 }
 
@@ -151,7 +149,16 @@ footer {
     .box {
         width: 50%;
         margin: 2%;
-        height: 350px;
+        height: auto;
+    }
+    .copyright {
+        font-size: 70%;
+    }
+    .sitemap a {
+        font-size: 70%;
+    }
+    .legacy a {
+        font-size: 70%;
     }
 }
 
@@ -169,7 +176,7 @@ footer {
     .box {
         width: 30%;
         margin: 2%;
-        height: 350px;
+        height: auto;
     }
 }
 
@@ -187,7 +194,7 @@ footer {
     .box {
         width: 25%;
         margin: 2%;
-        height: 350px;
+        height: auto;
     }
 }
 
@@ -205,6 +212,6 @@ footer {
     .box {
         width: 28%;
         margin: 1%;
-        height: 350px;
+        height: auto;
     }
 }
