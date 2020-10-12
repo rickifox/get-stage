@@ -116,3 +116,7 @@ h3 {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
+.technos {
+	display:flex;
+	flex-flow: column wrap;
+}
