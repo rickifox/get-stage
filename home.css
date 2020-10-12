@@ -70,6 +70,11 @@ h2 {
     font-size: 90%;
 }
 
+.buton {
+    height: 5%;
+    width: 10%;
+}
+
 .button:hover {
     background-color: tomato;
 }
@@ -120,15 +125,11 @@ footer {
     .box {
         width: 80%;
         margin: 2%;
+        height: 300px;
     }
-    .copyright {
-        font-size: 70%;
-    }
-    .sitemap a {
-        font-size: 70%;
-    }
-    .legacy a {
-        font-size: 70%;
+    .button {
+        height: 5%;
+        width: 10;
     }
 }
 
@@ -147,15 +148,7 @@ footer {
     .box {
         width: 50%;
         margin: 2%;
-    }
-    .copyright {
-        font-size: 70%;
-    }
-    .sitemap a {
-        font-size: 70%;
-    }
-    .legacy a {
-        font-size: 70%;
+        height: 350px;
     }
 }
 
@@ -173,6 +166,7 @@ footer {
     .box {
         width: 30%;
         margin: 2%;
+        height: 350px;
     }
 }
 
@@ -190,6 +184,7 @@ footer {
     .box {
         width: 25%;
         margin: 2%;
+        height: 350px;
     }
 }
 
@@ -207,5 +202,6 @@ footer {
     .box {
         width: 28%;
         margin: 1%;
+        height: 350px;
     }
 }
