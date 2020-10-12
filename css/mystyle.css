@@ -76,12 +76,12 @@ label{
     font-size: 12px;
 }
 .bkground {
-    background-color: rgb(255,255,200);
+    background-color: #f5f0f5;
     padding-bottom: 10px;
     padding-top: 5px;
     border-radius: 10px;
     border-style: ridge;
-    border-color: rgb(141, 156, 184);
+    border-color: #fdfcfd;
 }
 
 .header-class{
@@ -127,8 +127,14 @@ label{
     }
     .header-links.responsive .dropdownmenu{
         display: block;
+        background-color: white;
+    } 
     
-    }   
+    .header-links.responsive .dropdownmenu .dropdownitem{
+        margin-left: 150px;
+        top: -3px;
+        border: 1px dotted white;
+    }
 }
 
 .burgermenu{
