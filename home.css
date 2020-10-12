@@ -69,7 +69,10 @@ h1 {
 h2 {
     font-size: 90%;
 }
-
+.buton {
+    height: 5%;
+    width: 10%;
+}
 .buton {
     height: 5%;
     width: 10%;
