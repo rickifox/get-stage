@@ -3,7 +3,7 @@
     font-size: 12px;
 }
 
-p{
+.header-class p{
     display: inline;
 }
 
@@ -81,7 +81,11 @@ label{
     padding-top: 5px;
     border-radius: 10px;
     border-style: ridge;
+<<<<<<< HEAD
     border-color: #fdfcfd;
+=======
+    border-color: orange;
+>>>>>>> 405ff0efaaab6eda370b1b4392cd56e32f3720e7
 }
 
 .header-class{
