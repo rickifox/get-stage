@@ -120,6 +120,7 @@ footer {
     .box {
         width: 80%;
         margin: 2%;
+        height: auto;
     }
     .copyright {
         font-size: 70%;
@@ -147,6 +148,7 @@ footer {
     .box {
         width: 50%;
         margin: 2%;
+        height: auto;
     }
     .copyright {
         font-size: 70%;
@@ -173,6 +175,7 @@ footer {
     .box {
         width: 30%;
         margin: 2%;
+        height: auto;
     }
 }
 
@@ -190,6 +193,7 @@ footer {
     .box {
         width: 25%;
         margin: 2%;
+        height: auto;
     }
 }
 
@@ -207,5 +211,6 @@ footer {
     .box {
         width: 28%;
         margin: 1%;
+        height: auto;
     }
 }
